@@ -173,11 +173,5 @@ run_phpcs() {
   phpcs -i
 }
 
-install_wp
-install_test_suite
+
 install_db
-install_real_wp
-link_this_project
-install_rspec_requirements
-start_server
-run_phpcs
